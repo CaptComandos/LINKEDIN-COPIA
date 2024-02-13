@@ -5,8 +5,9 @@ body {
 
 
 header {
-    height: 100px;
+    /* height: 100px; */
     background-color: rgb(240, 240, 240);
+    padding: 25px 0 25px 450px;
 
 }
 
@@ -21,26 +22,39 @@ h1 {
 
 form {
     margin: auto;
-    width: 500px;
+    width: 400px;
     padding: 30px;
     background-color: #FFF;
     border-radius: 15px;
-    
+
+}
+
+label {
+    color: #555;
 }
 
 span {
-    color:blue;
+    color: royalblue;
 }
-
+footer {
+    padding: 5px 300px;
+}
 footer a {
     color: slategrey;
+    margin: 10px;
 }
 
 footer p {
     color: slategrey;
-    
+
 }
 
 a {
     text-decoration: none;
+}
+
+button {
+   background: white;
+   border-radius: 25px;
+   padding: 10px 20px;
 }
